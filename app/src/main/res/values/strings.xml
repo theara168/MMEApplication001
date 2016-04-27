@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ក្រសួងរ៉ែនិងថាមពល</string>
+    <string name="title_section1">ពត៏មានអំពីសាល</string>
+    <string name="title_section2">ការប្រជំុប្រចាំថ្ងៃ</string>
+    <string name="title_section3">អំពីយើង</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_section0">ពត៏មានថ្មីៗ</string>
+    <string name="news_titles">ពត៏មានស្តីពី</string>
+    <string name="news_description" />
+    <string name="description_about">ក្រសួងរ៉ែ⁣នឹងថាមពល </string>
+
+    <!---->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="description">This is a technique that help you to decide what you need to do.So I\'m very thank you to you guy.</string>
+    <string name="tvDesctiptions">New Entertainment</string>
+</resources>

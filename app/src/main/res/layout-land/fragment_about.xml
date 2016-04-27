@@ -1,0 +1,46 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mobiledev.mmeapplication.activity.NewsDetailActivity">
+
+    <ImageView
+        android:id="@+id/thumbnailNewsDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/r4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Time: 9:00 AM "
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/tvPostBy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Post by: Ouen Theara"
+        android:textSize="@dimen/rating" />
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/tvDesctiptionNewsDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="descaription:"
+        android:textSize="14sp" />
+</LinearLayout>
